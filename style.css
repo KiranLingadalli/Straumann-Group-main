@@ -1,0 +1,841 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+
+}
+
+
+
+.section-container {
+    background: url(./image\ 6.png) no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 743px;
+
+
+
+}
+
+.back {
+    width: 768px;
+    height: 10rem;
+    position: absolute;
+    top: 6.625rem;
+    background: linear-gradient(90.08deg, rgba(86, 151, 182, 0.6) 0.08%, rgba(0, 0, 0, 0) 99.94%);
+
+
+}
+
+.text {
+    position: absolute;
+    top: 18.6%;
+}
+
+.text h1 {
+
+    font-weight: 500;
+    font-size: 4.5rem;
+    line-height: 5.875rem;
+
+
+    color: #FFFFFF;
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+
+.info {
+    margin-top: 78px;
+}
+
+
+
+/* form */
+
+
+.form-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form {
+    position: absolute;
+    width: 35.625rem;
+    /* height: 41.563rem; */
+    top: 2.125rem;
+
+
+    border-top: 5px solid #5697B6;
+    background: #FFFFFF;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.form-inner-section {
+    padding: 1.188rem 2.25rem 2.439rem;
+}
+
+.form-heading {
+    display: flex;
+}
+
+.head {
+    margin: 1.563rem 0 0 2.938rem;
+
+}
+
+.head h2 {
+
+    font-weight: 500;
+    font-size: 1.375rem;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 11px;
+
+}
+
+.head p {
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 21px;
+    color: #000000;
+}
+
+
+
+.inner-fields {
+
+    display: flex;
+    gap: 1.875rem;
+    margin-bottom: 1.875rem;
+
+}
+
+
+
+.form-fields {
+    margin-top: 2rem;
+}
+
+.fields {
+    width: 234px;
+}
+
+.fields label {
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.313rem;
+
+
+
+    color: #000000;
+
+}
+
+
+.fields input {
+    width: 100%;
+    height: 1.875rem;
+
+
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.field {
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#select {
+    outline: none;
+    border: none;
+
+    width: 100%;
+    height: 32px;
+}
+
+.button {
+    margin-top: 2.75rem;
+
+}
+
+
+input[type="submit"] {
+
+    height: 3.563rem;
+
+
+    background: #5697B6;
+    border-radius: 0.625rem;
+    border-style: none;
+}
+
+input[value="Submit"] {
+
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.313rem;
+    color: #FFFFFF;
+
+
+
+}
+
+
+
+/* Section 2 begins */
+.image {
+    margin: 122px 0 114px;
+}
+
+.text-mid {
+
+   
+    margin-left: 64px;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+height: 100%;
+}
+
+.group {
+    position: relative;
+}
+
+.group img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.text-mid h2 {
+
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 83px;
+    margin-bottom: 11px;
+    color: #5697B6;
+
+}
+
+.text-mid p {
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 142.55%;
+
+
+
+    color: #000000;
+}
+
+
+
+/* Section 3  */
+.dot {
+
+    position: relative;
+}
+
+.dot img {
+    position: absolute;
+    top: 5px;
+    right: 71px;
+}
+
+.mid {
+
+   
+    background: rgba(86, 151, 182, 0.1);
+
+}
+
+
+.cd{
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+.header h2 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    
+    margin-bottom: 60px;
+    color: #5697B6;
+
+}
+
+.card-img {
+    width: 96px;
+    height: 98px;
+}
+
+.cards {
+    margin-bottom: 30px;
+
+
+}
+.card-img{
+    margin-top: 33px;
+}
+
+.card-content {
+    width: 370px;
+    height: 348px;
+
+
+    background: #222425;
+}
+
+.card-com {
+   
+padding: 24px;
+}
+
+
+.card-text {
+    margin-top: 37px;
+}
+
+.card-text h3 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    margin: 0;
+
+    color: #FFFFFF;
+
+}
+
+.card-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 14px;
+
+
+    color: #FFFFFF;
+
+}
+.curve{
+    position: relative;
+}
+.curve img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* section 4 */
+
+
+.top-text h2{
+    font-weight: 500;
+font-size: 48px;
+line-height: 62px;
+text-align: center;
+margin-bottom: 72px;
+color: #5697B6;
+
+}
+.top-cards{
+    padding-top: 120px;
+    padding-bottom: 101px;
+   
+   
+}
+.fg{
+    width: 90%;
+    margin: auto;
+}
+.card-main{
+    text-align: center;
+    
+}
+.cardimg{
+   
+    margin-bottom: 50px;
+}
+.cardimg img{
+    width: 210px;
+    height: 210px;
+}
+
+.section-back{
+    background: #222425;
+}
+.text-card h3{
+    font-weight: 500;
+font-size: 22px;
+line-height: 29px;
+
+margin-bottom: 10px;
+
+color: #5697B6;
+
+}
+.text-card p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+
+
+
+color: #FFFFFF;
+
+}
+/* .grp{
+    position: relative;
+}
+.grp img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
+
+/* section 5 */
+.section-5{
+    width: 72%;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 160px;
+}
+.mid-text{
+    text-align: center;
+}
+.mid-text h2{
+    font-weight: 500;
+font-size: 48px;
+line-height: 62px;
+margin-bottom: 20px;
+color: #5697B6;
+
+}
+.mid-text p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+padding: 0 220px;
+color: #000000;
+margin-bottom: 39px;
+}
+
+.art img{
+    width: 100%;
+}
+@media screen and (max-width:568px) {
+    .mid-text h2{
+       
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    
+    
+    }
+    .mid-text p{
+      
+    padding: 0;
+   
+
+    }
+    .section-5{
+        width: unset;
+        margin: auto;
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    .back {
+
+        width: 100%;
+        top: 1rem;
+        height: 80px;
+    }
+
+    .form {
+        width: 100%;
+        top: 44%;
+
+    }
+
+    .fields {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .inner-fields {
+
+        display: block;
+
+
+    }
+
+    .text {
+
+        top: 1.4%;
+        left: 5%;
+
+
+    }
+
+    .info {
+        margin-top: 12px;
+    }
+
+    .text h1 {
+
+
+        font-size: 2rem;
+        line-height: 5.875rem;
+
+    }
+
+    .text p {
+
+        font-size: 1.25rem;
+        line-height: 1.625rem;
+        margin-top: 0.75rem;
+
+    }
+
+    .section-container {
+        background: #000000;
+
+    }
+
+
+
+    .head h2 {
+
+
+        font-size: 0.875rem;
+        line-height: 0.938rem;
+        color: #000000;
+
+    }
+
+    .head p {
+
+
+        font-size: 0.75rem;
+        line-height: 0.875rem;
+        color: #000000;
+    }
+
+
+    .image img {
+        width: 100%;
+        margin-top: 360px;
+    }
+
+    .image {
+        margin-bottom: 0;
+    }
+
+    .group {
+        display: none;
+    }
+
+    .text-mid {
+
+      
+        margin-left: 16px;
+    }
+
+    .text-mid h2 {
+
+
+        font-size: 40px;
+
+
+    }
+
+    .text-mid p {
+
+
+        font-size: 18px;
+
+
+
+    }
+.header h2{
+    margin-bottom: 20px;
+}
+    .header h2 {
+        margin-top: 20px;
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .card-content {
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+    .cards{
+        margin-bottom: 0;
+        
+    }
+    .cd{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .mid {
+        height: 100%;
+    }
+
+.curve{
+    display: none;
+}
+.top-cards{
+    padding-top: 30px;
+}
+    .top-text h2{
+      
+    font-size: 40px;
+    line-height: 40px;
+    
+    margin-bottom: 20px;
+    
+    
+    }
+    .img-fig img{
+        width: 100%;
+    }
+    .art img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:580px) and (max-width:912px) {
+    .form {
+        width: 100vw;
+        top: 700px;
+        left: 0px;
+        height: 100%;
+    }
+
+    .section-container {
+        background: #000000;
+
+    }
+
+    .outer-section {
+        display: none;
+    }
+    .section-5{
+        width: unset;
+    }
+    .mid-text p{
+        padding: 0;
+    }
+
+    .text p {
+
+        font-size: 2rem;
+        line-height: 1.625rem;
+        margin-top: 0.75rem;
+
+    }
+
+    .inner-fields {
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+
+    .image img {
+        width: 100%;
+        margin-top: 580px;
+    }
+
+    .image {
+        margin-bottom: 0;
+    }
+
+    .group {
+        display: none;
+    }
+
+    .text-mid {
+
+        margin-top: 0px;
+        margin-left: 28px;
+    }
+
+    .header h2 {
+        margin-top: 20px;
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .card-content {
+        width: 100%;
+
+        height: 100%;
+
+    }
+
+    .cd{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .mid {
+        height: 100%;
+    }
+
+    .group img {
+        display: none;
+    }
+
+    
+.art img {
+    width: 100%;
+}
+.img-fig img{
+    width: 100%;
+}
+.cardimg img{
+    width: 100%;
+}
+}
+
+
+@media only screen and (min-width:1024px) and (max-width:1029px) {
+    .art img {
+        width: 100%;
+    }
+    .img-fig img{
+        width: 100%;
+    }
+    .cardimg img{
+        width: 100%;
+    }
+    .section-container {
+        height: 100vh;
+
+    }
+
+    .card-com {
+        padding: 25px 10px;
+
+    }
+
+    .header h2 {
+        margin-top: 30px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .mid {
+        height: 100%;
+    }
+
+    .text p {
+
+        font-size: 1.5rem;
+        line-height: 1.625rem;
+        margin-top: 0.75rem;
+
+    }
+
+    .form {
+        width: 50%;
+        right: 30px;
+
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    .form {
+        height: 550px;
+    }
+
+    .group img {
+        width: 20%;
+    }
+
+    .text-mid {
+        margin-left: 10px;
+
+    }
+
+    .card-content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .text-mid p {
+        font-size: 30px;
+    }
+
+    .form-fields {
+        margin-top: 6px;
+    }
+
+    .button {
+        margin-top: 10px;
+    }
+
+    .inner-fields {
+        margin-bottom: 6px;
+    }
+
+}
+
+@media screen and (max-width:280px) {
+
+    .image img {
+        width: 100%;
+        margin-top: 460px;
+    }
+
+    .card-com {
+        padding: 10px;
+
+    }
+    .card-img{
+        margin-top: 20px;
+    }
+
+    .text-mid p {
+        font-size: 14px;
+    }
+.card-text h3{
+font-size: 18px;
+}
+.card-text p{
+    font-size: 14px;
+}
+    .header h2 {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+}
