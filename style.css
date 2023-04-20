@@ -271,6 +271,7 @@ input[value="Submit"] {
     position: absolute;
     top: 5px;
     right: 71px;
+    z-index: -1;
 }
 
 .section-mid {
@@ -632,6 +633,8 @@ input[value="Submit"] {
     flex-direction: column;
     height: 100%;
     justify-content: center;
+    width: 85%;
+    margin: auto;
 }
 
 
@@ -663,15 +666,15 @@ input[value="Submit"] {
 .mid-content-img img {
     position: absolute;
     bottom: -307px;
-    left: 0;
+    left: -59px;
     z-index: -1;
 
 }
 
 .image-rightside {
     display: flex;
-    justify-content: center;
-    margin-left: 72px;
+    justify-content: flex-end;
+   
 
 }
 
@@ -1036,7 +1039,7 @@ input[value="Submit"] {
     /* section 8 */
     .image-rightside {
         margin-top: 20px;
-        margin-left: 0;
+      
     }
 
     .image-rightside img {
@@ -1051,7 +1054,9 @@ input[value="Submit"] {
         padding-top: 40px;
         padding-bottom: 0;
     }
-
+.mid-content{
+    width: unset;
+}
     .mid-content h2 {
         font-size: 32px;
         line-height: 30px;
@@ -1345,7 +1350,7 @@ input[value="Submit"] {
 
     /* section 8 */
     .image-rightside img {
-        width: 110%;
+        width: 100%;
     }
 
     .mid-content h2 {
@@ -1363,10 +1368,7 @@ input[value="Submit"] {
         width: 70%;
     }
 
-    .image-rightside {
-        display: block;
-        margin-left: 0;
-    }
+    
 
     .fields {
         width: 100%;
@@ -1375,9 +1377,9 @@ input[value="Submit"] {
     /* section 9 */
 
     .form-content {
-        width: 106%;
+        width: 100vw;
         height: 62%;
-        margin-left: -3%;
+        margin-left: -4%;
         margin-top: 61%;
     }
 
@@ -1398,12 +1400,19 @@ input[value="Submit"] {
 @media only screen and (min-width:820px) and (max-width:912px) {
 
     .image-rightside img {
-        width: 118%;
+        width: 100%;
+    }
+    .mid-content{
+        width: 77%;
+    }
+    .mid-content h2 {
+        font-size: 30px;
+       
     }
 
     .form-content {
-        width: 114%;
-        height: 61%;
+        width: 100vw;
+      
         margin-left: -7%;
         margin-top: 65%;
     }
@@ -1411,12 +1420,12 @@ input[value="Submit"] {
 
 @media only screen and (min-width:912px) and (max-width:1000px) {
     .image-rightside img {
-        width: 132%;
+        width: 100%;
     }
 
     .form-content {
-        width: 127%;
-        height: 58%;
+        width: 100vw;
+       
         margin-left: -14%;
         margin-top: 72%;
     }
@@ -1578,12 +1587,10 @@ input[value="Submit"] {
         margin-top: 20px;
     }
 
-    .image-rightside {
-        display: block;
-    }
+   
 
     .image-rightside img {
-        width: 111%;
+        width: 100%;
     }
 
     br {
@@ -1593,6 +1600,12 @@ input[value="Submit"] {
     .mid-content-img {
         display: none;
     }
+
+.dot-bg img {
+   
+    bottom: 14px;
+    
+}
 
     /* section 9 */
 
@@ -1623,8 +1636,21 @@ input[value="Submit"] {
 
     /* section 8 */
     .image-rightside img {
-        width: 134%;
+        width: 100%;
     }
+    .mid-content{
+        width: 79%;
+    }
+
+.mid-content h2 {
+   
+    font-size: 38px;
+    line-height: 48px;
+
+}
+.mid-content p{
+    font-size: 15px;
+}
 
 
 
